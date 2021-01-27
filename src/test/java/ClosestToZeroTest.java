@@ -20,5 +20,23 @@ class ClosestToZeroTest {
         Assert.assertEquals(expected, closestToZero.getClosestToZero(intArr));
     }
 
+    @Test
+    public void shouldFindCorrectlyClosestToZero3() {
+        ClosestToZero closestToZero = new ClosestToZero();
+        int expected = 5;
+        int[] intArr = {5, 6, -5, -6,8 };
+        Assert.assertEquals(expected, closestToZero.getClosestToZero(intArr));
+    }
+
+    @Test
+    public void shouldFindCorrectlyClosestToZero4() {
+        ClosestToZero closestToZero = new ClosestToZero();
+        int expected = 3;
+        int[] intArr = {6, 3, -5, 4, 7};
+        Assert.assertEquals(expected, closestToZero.getClosestToZero(intArr));
+    }
+
+
+
 
 }
