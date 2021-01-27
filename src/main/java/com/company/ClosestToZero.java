@@ -9,6 +9,7 @@ public class ClosestToZero {
      * - consider the positive element to be "closer" to zero.
      */
     public int getClosestToZero(int[] a) {
+        System.out.println("ok");
         return -1;
     }
 
